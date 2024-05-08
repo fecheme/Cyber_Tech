@@ -112,7 +112,6 @@ nav button#menuButton{
 }
 
 .main .left h5 span{
-    /*background: linear-gradient( to right, red, green, yellow, blue );*/
     color: #200786;
 }
 
@@ -132,14 +131,9 @@ nav button#menuButton{
     border-radius: 5px;
 }
 
-.main {
-    background-image: url("assets/imagen-de-fundo.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .main .right img{
     width: 500px;
+    border-radius: 15px;
 }
 
 .skills{
@@ -212,9 +206,9 @@ nav button#menuButton{
     gap: 60px;
 }
 
-.about .left{
+.about .left img{
     background-color: #deebee;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
 }
 
 .about .left img{
